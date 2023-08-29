@@ -6,6 +6,6 @@ public class Main {
         System.out.println("Lütfen bir kelime giriniz");
         String word = scan.nextLine();
         word = word.trim();
-        System.out.println(word.toUpperCase() );
+        System.out.print(word.toUpperCase() );
     }
 }
